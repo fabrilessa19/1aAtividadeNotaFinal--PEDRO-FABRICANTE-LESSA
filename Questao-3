@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questao 3</title>
+    <style>
+    body {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            padding: 300px;
+            background-color: lightgray; 
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            padding: 40px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: #000000; 
+            color: white;
+        }
+     
+        button:hover {
+            opacity: 0.5;
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Clique no botão para mudar a cor do fundo.</h1>
+
+    <button onclick="mudarcor()">Mudar Cor</button>
+
+    <script>
+        const cores = ['red', 'blue', 'green', 'orange', 'purple'];
+
+        function mudarcor() {
+            const corAleatoria = cores[Math.floor(Math.random() * cores.length)];
+
+            document.body.style.backgroundColor = corAleatoria;
+        }
+    </script>
+
+</body>
+</html>
