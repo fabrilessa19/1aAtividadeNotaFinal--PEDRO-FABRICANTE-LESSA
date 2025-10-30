@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Questao 1</title>
+<style>
+  
+   body {
+    margin: 0;
+    display: flex;
+    background: #f4f6f8;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px; 
+  }
+
+  h1 {
+    margin: 20px 0 10px;
+    color: #636ac5;
+    font-size: 2em; 
+  }
+
+  h2 {
+    margin: 0 0 20px;
+    color: #5c5a5a;
+    font-size: 1.4em;
+  }
+
+  .fundo {
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(20, 8, 8, 0.15);
+    text-align: center;
+    width: 450px; 
+    padding: 50px;
+    background: rgb(196, 191, 191);
+  }
+
+  p {
+    font-size: 1.1em;
+    color: #000000d8;
+    margin-bottom: 25px;
+    line-height: 1.5;
+  }
+
+  .botoes {
+    margin-bottom: 25px;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+  }
+
+  .botao {
+     border-radius: 8px;
+    font-size: 1em;
+    background: #4f79a8;
+    padding: 10px 20px;
+    color: white;
+    transition: background 0.3s;
+  }
+
+  .botao:hover {
+    background: #3a5a80;
+  }
+
+  .github a {
+    display: inline-block;
+    background-color: #333;
+     color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s;
+      font-size: 1em;
+  }
+
+  .github a:hover {
+    background-color: #000;
+  }
+
+  
+</style>
+</head>
+<body>
+  <div class="fundo">
+    <h1>Pedro Lessa</h1>
+    <h2>Desenvolvedor Web</h2>
+    <p>Olá! meu nome é Pedro Lessa, estudante de Ciência da Computação com interesse na área de segurança da informação.</p>
+
+    <div class="botoes">
+      <div class="botao">Segurança</div>
+      <div class="botao">Desenvolvimento Web</div>
+      <div class="botao">202502338881</div>
+    </div>
+
+    <div class="github">
+      <a href="https://github.com/fabrilessa19?tab=repositories target="_blank">GitHub</a>
+    </div>
+  </div>
+</body>
+</html>
